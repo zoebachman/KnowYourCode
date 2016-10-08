@@ -3,104 +3,98 @@ body {
 /*        font-size: 100%;*/
         color: white;
         background: white;
+        width: 600px;
       }
 
 #title{
 		font-size: 12px;
+
     	margin-top: 10px;
     	margin-bottom: 10px;
-    	margin-right: 600px;
+    	margin-right: 400px;
     	margin-left: 10px;
+
     	padding-left: 15px;
-    	background-color: navy;
-      }
 
-#company-box{
-		font-size: 20px;
-    	margin-top: 30px;
-    	margin-bottom: 10px;
-    	margin-right: 200px;
-    	margin-left: 80px;
-    	padding-left: 40px;
-    	padding-right: 20px;
-/*    	padding-top: 10px;
-    	padding-bottom: 10px;*/
     	background-color: navy;
 }
 
-#stats-box{
-		/*display: inline-block;*/
-/*		float: left;*/
+#top-row{
+		display: inline-block;
 
     	margin-top: 30px;
-    	margin-bottom: 100px;
-    	margin-right: 500px;
+    	margin-right: 10px;
     	margin-left: 10px;
-    	padding-left: 20px;
+
+/*    	padding-top: 10px;
+    	padding-bottom: 10px;
     	padding-right: 20px;
-    	padding-top: 20px;
-    	padding-bottom: 20px;
-    	background-color: navy;
-}
-#stats{
-		font-size: 12px;
-}
-
-.right{
-/*	    margin-top: 30px;*/
-/*    	margin-bottom: 10px;*/
-    	margin-right: 100px;
-    	margin-left: 400px;
-    	padding-left: 20px;
-    	padding-top: 20px;
-    	padding-bottom: 20px;
+    	padding-left: 20px;*/
     	background-color: navy;
 }
 
-#founders-box{
-/*		display: inline-block;*/
+	#company-box{
+	    	padding-left: 200px;
+	    	padding-right: 20px;
+	}
+
+	#stats-box{
+			display: inline-block;
+			float: left;
+			height:60px;
+
+	    	/*margin-right: 500px;*/
+
+	    	padding-left: 10px;
+	    	padding-right: 20px;
+	    	padding-bottom: 20px;
+	    	background-color: red;
+	}
+
+/*		#stats{
+				font-size: 12px;
+		}*/
+
+	.right{
+			display: inline-block;
+			margin-bottom: 100px;
+			margin-left:400px;
+
+	    	padding-left: 20px;
+	    	padding-right: 20px;
+	    	padding-top: 20px;
+	    	padding-bottom: 100px;
+	    	background-color: red;
+
+	}
+
+/*		#founders-box{
 
 
-/*    	margin-top: 30px;
-    	margin-bottom: 100px;
-    	margin-right: 600px;
-    	margin-left: 400px;*/
-/*    	padding-left: 20px;
-    	padding-top: 20px;
-    	padding-bottom: 20px;*/
-/*    	background-color: navy;*/
-}
+		}*/
 
-#founders-names{
-		font-size: 12px;
-}
+/*		#founders-names{
+				font-size: 12px;
+		}*/
 
-#key-people-box{
+/*		#key-people-box{
 
-/*    	margin-top: 30px;
-    	margin-bottom: 100px;
-    	margin-right: 600px;
-    	margin-left: 400px;
-    	padding-left: 20px;
-    	padding-top: 20px;
-    	padding-bottom: 20px;
-    	background-color: navy;*/
-}
+		}*/
 
-#key-people{
-		font-size: 12px;
-}
+/*		#key-people{
+				font-size: 12px;
+		}*/
 
 #employee-data{
 		font-size: 20px;
     	margin-top: 30px;
     	margin-bottom: 10px;
-    	margin-right: 740px;
-    	margin-left: 80px;
+    	margin-right: 10px;
+    	margin-left: 10px;
     	padding-left: 40px;
     	padding-right: 20px;
-/*    	padding-top: 10px;
-    	padding-bottom: 10px;*/
+    	padding-top: 10px;
+    	padding-bottom: 10px;
     	background-color: navy;
 }
 
@@ -122,20 +116,24 @@ body {
 
 #leader-data{
 		font-size: 20px;
+
     	margin-top: 30px;
     	margin-bottom: 10px;
-    	margin-right: 740px;
-    	margin-left: 80px;
+    	margin-right: 10px;
+    	margin-left: 10px;
+
     	padding-left: 40px;
     	padding-right: 20px;
-/*    	padding-top: 10px;
-    	padding-bottom: 10px;*/
+    	padding-top: 10px;
+    	padding-bottom: 10px;
+
     	background-color: navy;
 }
 
 #gender-leader{
 		font-size: 12px;
 }
+
 #gender-leader-image{
 }
 
