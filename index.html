@@ -6,20 +6,8 @@
  -->
 <html>
   <head>
-    <title>Getting Started Extension's Popup</title>
-    <style>
-      body {
-        font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
-        font-size: 100%;
-      }
-      #status {
-        /* avoid an excessively wide status text */
-        white-space: pre;
-        text-overflow: ellipsis;
-        overflow: hidden;
-        max-width: 400px;
-      }
-    </style>
+    <title>Know Your Code</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 
     <!--
       - JavaScript and HTML must be in separate files: see our Content Security
@@ -30,7 +18,69 @@
     <script src="popup.js"></script>
   </head>
   <body>
-    <div id="status"></div>
+    <div id="title">
+      <h3>Know Your Code</h1>
+    </div>
+
+    <div id="company-box">
+      <h1>Company Name</h2>
+    </div>
+
+    <div id="stats-box">
+      <h2>Stats</h2>
+        <ul id="stats"><!--would I have to do "getElementByID" for all of these?-->
+          <li>Founded:</li>
+          <li>Location:</li>
+          <li>Net Worth:</li>
+          <li>No. of Employees:</li>         
+          <li>Key Products:</li> <!--not sure to include this-->
+        </ul>
+    </div>
+ 
+
+    <div id="founders-box">
+      <h2>Founders</h2>
+          <p id="founders-names">Names</p>
+    </div>
+
+
+
+    <div id="key-people-box">
+      <h2>Key People</h2>
+        <p id="key-people">Key People</p><!--might restructure to specify CEO, etc. Or maybe that's built into the json?-->
+    </div>
+
+  <div id="employee-data">
+      <h1>Employee Data</h1>
+        <div id="gender-reg">
+          <img id="gender-reg-image">
+          <p>Female:</p>
+          <p>Male:</p>
+        </div>
+
+        <div id="race-reg">
+          <img id="race-reg-image">
+          <p>Minority:</p>
+          <p>White:</p>
+        </div>
+  </div>
+
+
+    <div id="leader-data">
+      <h1>People in Leadership Roles</h1>
+        <div id="gender-leader">
+          <img id="gender-leader-image">
+          <p>Female:</p>
+          <p>Male:</p>
+        </div>
+
+        <div id="race-leader">
+          <img id="race-reg-leader">
+          <p>Minority:</p>
+          <p>White:</p>
+        </div>
+  </div>
+
     <img id="image-result" hidden>
   </body>
 </html>
