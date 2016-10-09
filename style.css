@@ -6,6 +6,10 @@ body {
         width: 600px;
       }
 
+li {
+	margin-bottom: 10px;
+}
+
 #title{
 		font-size: 12px;
 
@@ -150,7 +154,7 @@ body {
 #gender-leader{
 		font-size: 12px;
 		text-align: left;
-		
+
 
 		padding-left: 40px;
     	padding-right: 20px;
