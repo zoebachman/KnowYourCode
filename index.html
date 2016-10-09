@@ -7,93 +7,115 @@
 <html>
   <head>
     <title>Know Your Code</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
 
-    <!--
-      - JavaScript and HTML must be in separate files: see our Content Security
-      - Policy documentation[1] for details and explanation.
-      -
-      - [1]: https://developer.chrome.com/extensions/contentSecurityPolicy
-     -->
     <script src="popup.js"></script>
   </head>
 
 
 <body>
-  <div id="title">
-    <h3>Know Your Code</h3>
+  <div class="row"> <!--start row 1-->
+    <div id="title">
+      <h3>Know Your Code</h3>
+    </div>
   </div>
 
-
-  <div id="top-row">
-    <div id="company-box">
+  <div class="row"> <!--start row 2-->
+    <div id="top-row"> <!--do I still need this one?-->
+      <div id="company-box">
         <h2>Company Name</h2>
+      </div>
     </div>
+  </div><!--end row 2-->
 
+  <div class="row"> <!--start row 3-->
+    <div class="col-md-5">
+      <div id="stats-box">
+        <h2>Stats</h2><!--is this a separate row?-->
+          <ul id="stats"><!--would I have to do "getElementByID" for all of these?-->
+            <li>Founded:</li>
+            <li>Location:</li>
+            <li>Net Worth:</li>
+            <li>No. of Employees:</li>         
+            <li>Key Products:</li> <!--not sure to include this-->
+          </ul>
+      </div>
+    </div><!--end col-md-5-->
 
-    <div id="stats-box">
-      <h2>Stats</h2>
-        <ul id="stats"><!--would I have to do "getElementByID" for all of these?-->
-          <li>Founded:</li>
-          <li>Location:</li>
-          <li>Net Worth:</li>
-          <li>No. of Employees:</li>         
-          <li>Key Products:</li> <!--not sure to include this-->
-        </ul>
-    </div>
+    <div class="col-md-7 right">
 
- 
-
-    <div class="right">
-      <div id="founders-box">
-        <h2>Founders</h2>
-          <p id="founders-names">Names</p>
+       <div id="founders-box">
+          <h2>Founders</h2>
+            <p id="founders-names">
+            Names</p>
       </div>
 
       <div id="key-people-box">
         <h2>Key People</h2>
-          <p id="key-people">Key People</p><!--might restructure to specify CEO, etc. Or maybe that's built into the json?-->
+          <p id="key-people">
+            Key People</p><!--might restructure to specify CEO, etc. Or maybe that's built into the json?-->
+      </div>
+
+    </div> <!--end col-md-7 right-->
+
+  </div> <!--end row 3-->
+
+  <div class="row"><!--row4-->
+    <div class='col-md-12'>
+      <div id="employee-data">
+        <h1>Employee Data</h1>
       </div>
     </div>
+  </div><!--end row4-->
 
-  </div>
-
-
-  <div id="second-row">
-  <div id="employee-data">
-      <h1>Employee Data</h1>
+  <div class='row'><!--row5>-->
+    <div class='col-md-6 left'>
+      <img id="gender-reg-image">
         <div id="gender-reg">
-          <img id="gender-reg-image">
           <p>Female:</p>
           <p>Male:</p>
         </div>
+    </div> <!--end col-6 left-->
 
+    <div class='col-md-6 right'>
+      <img id="race-reg-image">
         <div id="race-reg">
-          <img id="race-reg-image">
           <p>Minority:</p>
           <p>White:</p>
         </div>
-  </div>
-</div>
+    </div><!--end col-6 right-->
+  </div><!--end row 5-->
 
-<div id="bottom-row">
-  <div id="leader-data">
-    <h1>People in Leadership Roles</h1>
+  <div class='row'><!--row6-->
+    <div class='col-md-12'>
+      <div id="leader-data">
+        <h1>People in Leadership Roles</h1>
+      </div>
+    </div><!--end col-12-->
+  </div><!--end row6-->
+
+
+  <div class='row'><!--row7-->
+    <div clas='col-md-6 left'>
       <div id="gender-leader">
         <img id="gender-leader-image">
         <p>Female:</p>
         <p>Male:</p>
       </div>
+    </div> <!--end-col-md-6 left-->
 
+    <div class='col-md-6 right'>
       <div id="race-leader">
         <img id="race-leader-image">
         <p>Minority:</p>
         <p>White:</p>
       </div>
-  </div>
-</div>
+    </div><!--end col-md-6 right-->
+  </div><!--end row 7-->
 
-   <!--  <img id="image-result" hidden> -->
+
   </body>
 </html>
 
