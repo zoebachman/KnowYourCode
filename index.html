@@ -8,7 +8,13 @@
   <head>
     <title>Know Your Code</title>
     <!-- Latest compiled and minified CSS -->
+
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    
+    
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Shade|Montserrat|Nova+Flat|Bree+Serif|Roboto|VT323" rel="stylesheet">
+
     <link rel="stylesheet" type="text/css" href="style.css">
 
     <script src="popup.js"></script>
@@ -16,14 +22,18 @@
 
 
 <body>
+<div class='container'>
+
   <div class="row"> <!--start row 1-->
-    <div id="title">
+    <div class='col-xs-12 col-md-12'>
+      <div id='title'>
       <h3>Know Your Code</h3>
+      </div>
     </div>
   </div>
 
   <div class="row"> <!--start row 2-->
-    <div id="top-row"> <!--do I still need this one?-->
+    <div class='col-xs-12 col-md-12'> <!--do I still need this one?-->
       <div id="company-box">
         <h2>Company Name</h2>
       </div>
@@ -31,9 +41,8 @@
   </div><!--end row 2-->
 
   <div class="row"> <!--start row 3-->
-    <div class="col-md-5">
-      <div id="stats-box">
-        <h2>Stats</h2><!--is this a separate row?-->
+    <div class="col-xs-6 col-md-6">
+        <h1>Stats</h1><!--is this a separate row?-->
           <ul id="stats"><!--would I have to do "getElementByID" for all of these?-->
             <li>Founded:</li>
             <li>Location:</li>
@@ -41,37 +50,37 @@
             <li>No. of Employees:</li>         
             <li>Key Products:</li> <!--not sure to include this-->
           </ul>
-      </div>
     </div><!--end col-md-5-->
-
-    <div class="col-md-7 right">
-
-       <div id="founders-box">
-          <h2>Founders</h2>
+    <div class='col-xs-6 col-md-6'> <!--id="founders-box">-->
+      <div class='row'>
+        <!-- <div class='col-xs-12 col-md-12'> -->
+          <h1>Founders</h1>
             <p id="founders-names">
             Names</p>
+        <!-- </div> -->
       </div>
-
-      <div id="key-people-box">
-        <h2>Key People</h2>
-          <p id="key-people">
+      <div class='row'>
+        <!-- <div class='col-xs-12 col-md-12'> -->
+          <div id="key-people-box">
+            <h1>Key People</h1>
+              <p id="key-people">
             Key People</p><!--might restructure to specify CEO, etc. Or maybe that's built into the json?-->
+          </div>
+        <!-- </div> -->
       </div>
-
     </div> <!--end col-md-7 right-->
-
   </div> <!--end row 3-->
 
+
+
   <div class="row"><!--row4-->
-    <div class='col-md-12'>
-      <div id="employee-data">
-        <h1>Employee Data</h1>
-      </div>
+    <div class='col-xs-12 col-md-12' id="employee-data">
+        <h2>Employees</h2>
     </div>
   </div><!--end row4-->
 
   <div class='row'><!--row5>-->
-    <div class='col-md-6 left'>
+    <div class='col-xs-6 col-md-6'>
       <img id="gender-reg-image">
         <div id="gender-reg">
           <p>Female:</p>
@@ -79,7 +88,7 @@
         </div>
     </div> <!--end col-6 left-->
 
-    <div class='col-md-6 right'>
+    <div class='col-xs-6 col-md-6'>
       <img id="race-reg-image">
         <div id="race-reg">
           <p>Minority:</p>
@@ -89,16 +98,14 @@
   </div><!--end row 5-->
 
   <div class='row'><!--row6-->
-    <div class='col-md-12'>
-      <div id="leader-data">
-        <h1>People in Leadership Roles</h1>
-      </div>
+    <div class='col-xs-12 col-md-12' id="leader-data">
+        <h2>Leadership Roles</h2>
     </div><!--end col-12-->
   </div><!--end row6-->
 
 
   <div class='row'><!--row7-->
-    <div clas='col-md-6 left'>
+    <div class='col-xs-6 col-md-6'>
       <div id="gender-leader">
         <img id="gender-leader-image">
         <p>Female:</p>
@@ -106,7 +113,7 @@
       </div>
     </div> <!--end-col-md-6 left-->
 
-    <div class='col-md-6 right'>
+    <div class='col-xs-6 col-md-6'>
       <div id="race-leader">
         <img id="race-leader-image">
         <p>Minority:</p>
@@ -115,7 +122,7 @@
     </div><!--end col-md-6 right-->
   </div><!--end row 7-->
 
-
+  </div>
   </body>
 </html>
 
