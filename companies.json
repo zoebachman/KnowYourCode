@@ -1,0 +1,39 @@
+{
+	"Companies": [
+		{
+			"company": "Facebook",
+			"Founded": "February 4, 2004",
+			"Headquarters": "Menlo Park, California, U.S.",
+			// "Net Worth": not sure exactly which number to put here
+			"No. of Employees": "14,495",
+			"Founders": "Mark Zuckerberg
+							Eduardo Saverin
+							Andrew McCollum
+							Dustin Moskovitz
+							Chris Hughes",
+			"Owner:"
+			"Key Players":"Mark Zuckerberg (Chairman and CEO)
+						Sheryl Sandberg (COO)",
+
+			"Employees": [
+			{
+				"Female": 33,
+				"Male": 67,
+				"Minority": 49,
+				"White": 51
+
+			}],
+
+			"Leaders": [
+			{
+				"Female": 23,
+				"Male": 77,
+				"Minority": 27,
+				"White": 73
+
+			}]
+		},
+
+
+	]
+}
