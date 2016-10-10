@@ -1,7 +1,7 @@
 body {
-        /*color: #54ff7c;*/
-        color: #383636;
-        background: dots_bkgrnd.jpg;
+        /*color: #54ff7c; Turquoise */
+        /*color: #383636;*/
+        background-image: /dots_bkgrnd.jpg;
         width: 400px;
         font-family: 'Nova Flat';
 /*        font-family: Roboto;*/
@@ -21,6 +21,7 @@ h1{
 
 h2{
 	font-size: 24px;
+	color: white;
 	text-align: center;
 }
 
@@ -31,7 +32,10 @@ p{
 }
 
 .col-xs-12{
-    	background-color: #ffefef;
+    	/*background-color: #ffefef; pink*/
+    	/*background-color: #8300ff; purple*/
+    	/**background-color: #1000ff;*/
+    	background-color: #51bcff;
     	font-style: strong;
 }
 
@@ -40,103 +44,7 @@ p{
 		font-size: 12px;
 		font-family:'VT323', monospace;
     	padding-left: 15px;
-    	background-color: grey;
+    	background-color: #d0ff00;
 }
 
-/*#top-row{
-    	background-color: transparent;
-}
 
-	#company-box{
-	    	font-size: 18px;
-	    	background-color: navy;
-	    	text-align: center;
-	    	
-	}*/
-
-/*	#stats-box{
-	    	background-color: navy;
-	    	font-size: 18px;
-	}
-
-		#stats{
-				font-size: 12px;
-				font-family: 'Roboto', sans-serif;
-		}
-
-
-		#founders-box{
-font-family: 'Roboto', sans-serif;
-
-		}
-
-		#founders-names{
-				font-size: 12px;
-				font-family: 'Roboto', sans-serif;
-		}
-
-		#key-people-box{
-font-family: 'Roboto', sans-serif;
-		}
-
-		#key-people{
-				font-size: 12px;
-				font-family: 'Roboto', sans-serif;
-		}
-
-#second-row{
-
-    	background-color: transparent;
-}
-
-	#employee-data{
-			font-size: 18px;
-			text-align: center;
-			background-color: navy;
-	}
-
-	#gender-reg{
-			font-size: 12px;
-			font-family: 'Roboto', sans-serif;
-	}
-
-	#gender-reg-image{
-	}
-
-	#race-reg{
-			font-size: 12px;
-			font-family: 'Roboto', sans-serif;
-	}
-
-	#race-reg-image{
-
-	}
-
-#bottom-row{
-    	background-color: transparent;
-}
-
-#leader-data{
-		font-size: 18px;
-		text-align: center;
-		background-color: navy;
-}
-
-#gender-leader{
-	font-size: 12px;
-	font-family: 'Roboto', sans-serif;
-	background-color: transparent;
-}
-
-#gender-leader-image{
-}
-
-#race-leader{
-	font-size: 12px;
-	font-family: 'Roboto', sans-serif;
-}
-
-#race-leader-image{
-
-}
-*/
