@@ -1,10 +1,8 @@
 body {
-        /*color: #54ff7c; Turquoise */
-        /*color: #383636;*/
+
         background-image: /dots_bkgrnd.jpg;
         width: 400px;
-        font-family: 'Nova Flat';
-/*        font-family: Roboto;*/
+        font-family: 'Roboto', monospace;
         padding: -5px;
         margin: -5px;
       }
@@ -13,6 +11,7 @@ li {
 	margin-bottom: 2px;
 	font-size: 12px;
 	font-family: Roboto;
+	padding-right: 15px;
 }
 
 h1{
@@ -26,29 +25,36 @@ h2{
 }
 
 p{
-	font-size: 10px;
-	font-family: Roboto;
+	font-size: 12px;
+	font-family: 'Roboto', monospace;
 	background-color: white;
+	padding-left: 10px;
 }
 
 .col-xs-12{
-    	/*background-color: #ffefef; pink*/
-    	/*background-color: #8300ff; purple*/
-    	/**background-color: #1000ff;*/
-    	background-color: #51bcff;
+    	background-color: #4300ff;
+    	font-family: 'Permanent Marker', cursive;
     	font-style: strong;
 }
 
 
 #title{
 		font-size: 12px;
-		font-family:'VT323', monospace;
+		/*font-family:'VT323', monospace;*/
+		font-family: 'Permanent Marker', cursive;
     	padding-left: 15px;
     	background-color: #d0ff00;
 }
 
-.col-xs-12 .col-md-12 .company-image{
+#company-box{
 	background-color: white;
+	margin-right: 60px;
+	margin-left: 60px;
 }
 
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
