@@ -15,7 +15,3 @@ Samsung
 HTC
 Skype
 Amazon
-
-
-To Do:
-Create Icon
