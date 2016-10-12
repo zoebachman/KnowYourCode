@@ -28,7 +28,11 @@ p{
 	font-size: 12px;
 	font-family: 'Roboto', monospace;
 	background-color: white;
-	padding-left: 10px;
+	/*padding-left: 10px;*/
+}
+
+.row{
+	outline: #4300ff thick;
 }
 
 .col-xs-12{

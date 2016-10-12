@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-function getCompanyName(callback){
+function getCurrentTabUrl(callback){
     // Query filter to be passed to chrome.tabs.query - see
   // https://developer.chrome.com/extensions/tabs#method-query
 
@@ -29,6 +29,45 @@ function getCompanyName(callback){
 
     callback(url);
   });
+
+function changeContent(companyName) {
+  //get url from tab (use function above to do that?)
+  //how to isolate company name? strip it? can you check the entire string against the json? 
+  //maybe another way?
+  //go into JSON and find companyName
+  document.getElementById('company').textContent = companyName;
+  document.getElementById('stats').textContent = companyName.stats;
+  document.getElementById('founders').textContent = companyName.founders;
+} //get json info
+
+
+
+//ok, so this is where the functions are actually called
+
+document.addEventListener('DOMContentLoaded', function() {
+  getCurrentTabUrl(function(url) {
+    // Put the image URL in Google search.
+    renderStatus('Performing Google Image search for ' + url);
+
+    getImageUrl(url, function(imageUrl, width, height) {
+
+      renderStatus('Search term: ' + url + '\n' +
+          'Google image search result: ' + imageUrl);
+      var imageResult = document.getElementById('image-result');
+      // Explicitly set the width/height to minimize the number of reflows. For
+      // a single image, this does not matter, but if you're going to embed
+      // multiple external images in your page, then the absence of width/height
+      // attributes causes the popup to resize multiple times.
+      imageResult.width = width;
+      imageResult.height = height;
+      imageResult.src = imageUrl;
+      imageResult.hidden = false;
+
+    }, function(errorMessage) {
+      renderStatus('Cannot display image. ' + errorMessage);
+    });
+  });
+});
 
 
 
